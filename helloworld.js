@@ -3,8 +3,7 @@
 // }
 // console.log(add(2, 2));
 // console.log(add(2, 7));
-var myArr;
-myArr = ["Marry", "Tom", "Jack", "Jim"];
+var myArr = new Array("Marry", "Tom", "Jack", "Jim");
 for (var i = 0; i < myArr.length; i++) {
     console.log(myArr[i]);
 }
