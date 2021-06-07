@@ -4,8 +4,7 @@
 // console.log(add(2, 2));
 // console.log(add(2, 7));
 var myArr;
-myArr = ["1", "2", "3", "4"];
-console.log(myArr[0]);
-console.log(myArr[1]);
-console.log(myArr[2]);
-console.log(myArr[3]);
+myArr = ["Marry", "Tom", "Jack", "Jim"];
+for (var i = 0; i < myArr.length; i++) {
+    console.log(myArr[i]);
+}

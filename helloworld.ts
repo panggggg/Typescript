@@ -7,9 +7,8 @@
 
 var myArr: string[];
 
-myArr = ["1", "2", "3", "4"];
+myArr = ["Marry", "Tom", "Jack", "Jim"];
 
-console.log(myArr[0]);
-console.log(myArr[1]);
-console.log(myArr[2]);
-console.log(myArr[3]);
+for (var i = 0; i < myArr.length; i++) {
+    console.log(myArr[i])
+}
